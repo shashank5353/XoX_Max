@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: 'Luckiest Guy', cursive;
+}
+.background{
+  width:100vw;
+  height: 100vh;
+  background-color:#2365a7 ;
+  position: absolute;
+  top:0;
+  z-index: -1;
+}
+.header{
+  width:100vw;
+  margin-top:5vh ;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  padding-top: 1vh;
+}
+.game_name{
+  font-size: 10vh;
+  color: #c1f8ff;
+  text-shadow: 0vh 0.5vh 0.5vh #000;
+}
+.game{
+  width:100vw;
+  min-height: 20vh;
+  margin-top:8vh ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.game_statements{
+  width:100vw;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.g_l{
+  min-width:42vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 6vh;
+  color: #b8e3df;
+  color: #c1f8ff;
+  text-shadow: 0vh 0.5vh 0.5vh #000;
+  gap:2vh;
+}
+.game_level{
+ font-size: 6vh;
+  color: #b8e3df;
+  color: #c1f8ff;
+  text-shadow: 0vh 0.5vh 0.5vh #000;
+}
+.game_state{
+  margin-top: 4vh;
+  font-size: 5vh;
+  color: #b8e3df;
+  color: #c1f8ff;
+  text-shadow: 0vh 0.5vh 0.5vh #000;
+}
+.game_box{
+ box-shadow: 0vh 0vh 1vh #000; 
+  margin-top:6vh ;
+  width:42vh;
+  height: 42vh;
+  background-color: #7f95fa;
+  background-color: #000c41;
+  border-radius: 2vh;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  gap: 1vh;
+  flex-wrap: wrap;
+  padding: 1vh;
+}
+.g_b{
+  width:29%;
+  height: 29%;
+  background-color: #b7ddf3;
+  border-radius: 1vh;
+  margin: 0vh;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  font-size: 10vh;
+  padding-top: 3vh;
+}
+.btn{
+  margin-top:3vh ;
+  width:100vw;
+  display: flex;
+  justify-content:center;
+}
+.reset_btn{
+  font-weight: 900;
+  font-family: "Baloo Bhai 2", cursive; 
+  padding: 1vh;
+  padding-top: 0;
+  padding-bottom: 0vh;
+  font-size: 4vh;
+  background-color: #b7ddf3;
+  border-radius: 1vh;
+  box-shadow: 0vh 0.5vh 0.5vh #000;
+}
+.reset_btn i{
+  font-size: 3vh;
+  margin-left: 1vh;
+  margin-right: 0.5vh;
+/*  animation-name:rnotate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;*/
+  transition: all 1s;
+}
+.reset_btn i:hover{
+  rotate: 360deg;
+  color:white;
+}
+@keyframes rotate{
+  0%{
+    rotate: 0;
+  }
+  100%{
+    rotate: 360deg;
+  }
+}
